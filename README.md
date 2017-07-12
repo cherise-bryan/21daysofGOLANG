@@ -1,1 +1,2 @@
+# 21daysofGOLANG
 There is something to be learned from every language you play with whether you end up using it in practice or not. This series, **21daysof**, is dedicated to my explorations of various languages within the short time span of 21 days. I don't expect to gain fluency in such a short time but, I hope to learn something about how each language meets the needs of a particular problem in software development.
