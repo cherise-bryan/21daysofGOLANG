@@ -8,12 +8,14 @@ import (
 
 func Sqrt(x float64) float64 {
 	var z float64 = rand.Float64() + float64(1)
-	var diff float64 = x
-
-	for math.Floor(diff) != 0 {
-		diff = (z - ((z*z - x) / 2 * z))
+	z_next := z + float64(1)
+	
+	
+	for diff := z_next - z; math.Floor(diff) != 0; {
+		z_next = z - ((z*z - x) / (2 * z))
+		diff = z_next - z
 	}
-	return diff
+	return z_next
 }
 
 func main() {
